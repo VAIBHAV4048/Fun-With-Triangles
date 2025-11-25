@@ -1,0 +1,81 @@
+
+    :root {
+  --primary-color: #002333;
+  --secondary-color: #DEEFE7;
+  --text-color: #222;
+  --bg-color: #f8f9fa;
+}
+body{
+    margin:0;
+    padding:0;
+background-color: var(--bg-color);
+font-family: sans-serif;
+color:var(--text-color);
+background: url(/resources/TrianglesBG.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+.navbar{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: left;
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    margin:auto 1rem;
+}
+#logo{
+    text-align: left;
+    color:var(--secondary-color);
+   margin-right:3rem;
+   margin-top: 0;
+   margin-bottom: 0;
+   font-weight: bold;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    background-color: var(--bg-color);
+    padding: 1rem;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    margin-top: 20rem;
+    justify-content: center;
+    width: 50vw;
+    margin:auto;
+    border: 2px solid var();
+        border: 2px solid var(--primary-color);
+}
+input{
+    margin-bottom: 1rem;
+    padding: 2px;
+}
+#check,#submit-answers{
+    padding: 2px;
+    font-size: larger;
+    background-color: var(--secondary-color);
+}
+#output{
+    margin-top: 1rem;
+    color: var(--text-color);
+    font-size: large;
+font-weight: bold;
+}
+label{
+    margin-bottom:2px;
+}
+input{
+    font-size: larger;
+}
+#Ques1,#Ques2{
+border: 2px solid var(--primary-color);
+margin-bottom: 1rem;
+padding: 1rem;
+background-color: var(--secondary-color);
+}
