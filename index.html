@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun-With-Triangles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <!-- nav starts here -->
+    <nav class="navbar">
+       <a href="index.html"><p style="border-bottom: 2px solid white; padding-bottom: 2px;" id="logo">FunTriangles</p></a> 
+        <a class="nav-items" href="hypotenuse.html">Hypotenuse</a>
+        <a class="nav-items" href="quiz.html">Quiz</a>
+        <a class="nav-items" href="area.html">Area</a>
+         </nav>
+         <!-- nav ends here -->
+    <!-- Is Triangle Checker -->
+
+
+<div class="container">
+        <h1 class="heading">Is Triangle?</h1>
+    <label for="angle1">Angle 1(In Degrees):</label>
+    <input type="number" id="angle1" class="input-angle" placeholder="Write angle in numbers">
+        <label for="angle2">Angle 2(In Degrees):</label>
+    <input type="number" id="angle2" class="input-angle" placeholder="Write angle in numbers">
+        <label for="angle3">Angle 3(In Degrees):</label>
+    <input type="number" id="angle3" class="input-angle" placeholder="Write angle in numbers">
+    
+    <button id="check">Check</button>
+    <div id="output"></div>
+    </div>
+    <script src="isTriangle.js"></script>
+</body>
+</html>
