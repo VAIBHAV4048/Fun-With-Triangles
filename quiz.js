@@ -16,7 +16,7 @@ function calculateScore() {
   output.innerText="Your score is "+ score;
 }
 else{
-    output.innerText="Before submitting select both the answers first ";
+    output.innerText="Before submitting select both the answers first 📝📝";
 }
 }
 
