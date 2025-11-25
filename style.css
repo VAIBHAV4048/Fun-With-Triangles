@@ -13,7 +13,6 @@ font-family: sans-serif;
 color:var(--text-color);
 background: url(/resources/TrianglesBG.jpg);
 background-size: cover;
-background-repeat: no-repeat;
 }
 .navbar{
     
@@ -28,12 +27,12 @@ background-repeat: no-repeat;
 a{
     text-decoration: none;
     color:white;
-    margin:auto 1rem;
+    margin:auto .5rem;
 }
 #logo{
     text-align: left;
     color:var(--secondary-color);
-   margin-right:3rem;
+   margin-right:2rem;
    margin-top: 0;
    margin-bottom: 0;
    font-weight: bold;
