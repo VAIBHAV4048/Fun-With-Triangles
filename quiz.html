@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Triangle-Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="index.html"><p id="logo">FunTriangles</p></a>
+      <a class="nav-items" href="hypotenues.html">Hypotenues</a>
+      <a     style="border-bottom: 2px solid white; padding-bottom: 2px" class="nav-items" href="quiz.html">Quiz</a>
+      <a  class="nav-items"
+        href="area.html"
+        >Area</a
+      >
+    </nav>
+
+    <!--Quiz starts here -->
+    <div class="container">
+      <h1 class="heading">Triangle Quiz</h1>
+      <form action="/" class="quiz-form">
+        <!-- Question1 -->
+        <section id="Ques1">
+          <p>
+            What is the thirdrd angle of the triangle if the first angle is
+            100&deg; and second angle is 30&deg;
+          </p>
+          <label
+            ><input
+              type="radio"
+              name="question1"
+              value="45&deg;"
+              id=""
+            />45&deg;</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="question1"
+              value="60&deg;"
+              id=""
+            />60&deg;</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="question1"
+              value="50&deg;"
+              id=""
+            />50&deg;</label
+          >
+        </section>
+        <!-- Question2 -->
+        <section id="Ques2">
+          <p>Sum of all angles of a triangle is?</p>
+          <label
+            ><input
+              type="radio"
+              name="question2"
+              value="145&deg;"
+              id=""
+            />145&deg;</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="question2"
+              value="200&deg;"
+              id=""
+            />200&deg;</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="question2"
+              value="180&deg;"
+              id=""
+            />180&deg;</label
+          >
+        </section>
+      </form>
+      <button id="submit-answers">Submit Answers</button
+      ><!-- We don't used onclick here due to separation of concerns. -->
+      <div id="output"></div>
+    </div>
+  </body>
+  <script src="quiz.js"></script>
+</html>
